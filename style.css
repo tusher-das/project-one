@@ -14,12 +14,19 @@
 /* about page */
 #about{
     min-height: 100vh;
-    background: gray;
+    background: #362e2e;
+    color: white;
+    text-align: center;
 }
 .profile{
     width: 200px;
     border-radius: 10px;
     border: 5px solid white;
+    box-shadow: 2px 2px 5px #888888;
+}
+.about-box{
+    text-align: left;
+    border: 1px solid #f7465b;
 }
 
 /* service page */
@@ -140,6 +147,16 @@
     border: #f7465b;
 }
 .btn-primary:hover{
+    color: #f7465b;
+    background-color: white;
+    border: white;
+}
+.btn-secondary{
+    color: #f7465b;
+    background-color: transparent;
+    border-color: #f7465b;
+}
+.btn-secondary:hover{
     color: #f7465b;
     background-color: white;
     border: white;
