@@ -6,6 +6,8 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    background-color: #333;
+    background-blend-mode: multiply;
     color: white;
 }
 
@@ -61,6 +63,36 @@
     color: #333333;
 }
 
+/* contact page */
+#contact{
+    min-height: 100vh;
+    background: url(./images/contactBG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: #333;
+    background-blend-mode: multiply;
+    color: white;
+}
+#contact .card{
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+#contact .card:hover{
+    background-color: white;
+    color: #333333;
+}
+#contact .card>i{
+    font-size: 2rem;
+    background-color: #f7465b;
+    padding: 25px 0px;
+    width: 80px;
+    border-radius: 100%;
+    margin: auto;
+}
 
 
 /* Gloval style */
