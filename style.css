@@ -1,4 +1,4 @@
-/* style for home section */
+/* home page */
 #home{
     height: 100vh;
     background-image: url(./images/bg.jpg);
@@ -7,40 +7,6 @@
     background-size: cover;
     position: relative;
     color: white;
-}
-
-/* change bootstrap navbar toggler icon color */
-.navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28247, 70, 91, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-/* change bootstrap menu style */
-.navbar-dark ul>li{
-    font-weight: bold;
-    font-size: large;
-    margin-left: 5px;
-    transition: transform 500ms;
-}
-.navbar-dark ul>li:hover{
-    transform: scale(1.1);
-}
-.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .show>.nav-link{
-    color: white;
-}
-.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
-    color: #f7465b;
-}
-
-/* change bootstrap primary button color */
-.btn-primary{
-    color: white;
-    background-color: #f7465b;
-    border: #f7465b;
-}
-.btn-primary:hover{
-    color: #f7465b;
-    background-color: white;
-    border: white;
 }
 
 /* about page */
@@ -76,7 +42,73 @@
 #services .main-content{
     text-align: center;
 }
-
 #services p{
     color: #aea8a8;
+}
+
+/* portfolio page */
+#portfolio{
+    min-height: 100vh;
+    background: rgb(90, 77, 77);
+    
+}
+
+#portfolio .main-content{
+    color: white;
+    text-align: center;
+}
+#portfolio .card-body{
+    color: #333333;
+}
+
+
+
+/* Gloval style */
+
+/* style for small under line */
+.separator.centered {
+    margin: 10px auto;
+}
+.separator {
+    background: #f7465b;
+}
+.separator {
+    position: relative;
+    width: 70px;
+    height: 3px;
+    margin: 10px 0;
+}
+
+/* change bootstrap navbar toggler icon color */
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28247, 70, 91, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* change bootstrap menu style */
+.navbar-dark ul>li{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 5px;
+    transition: transform 500ms;
+}
+.navbar-dark ul>li:hover{
+    transform: scale(1.1);
+}
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .show>.nav-link{
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+    color: #f7465b;
+}
+
+/* change bootstrap primary button color */
+.btn-primary{
+    color: white;
+    background-color: #f7465b;
+    border: #f7465b;
+}
+.btn-primary:hover{
+    color: #f7465b;
+    background-color: white;
+    border: white;
 }
