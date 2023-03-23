@@ -45,11 +45,38 @@
 
 /* about page */
 #about{
-    height: 100vh;
+    min-height: 100vh;
     background: gray;
 }
 .profile{
     width: 200px;
     border-radius: 10px;
     border: 5px solid white;
+}
+
+/* service page */
+#services{
+    min-height: 100vh;
+    background: #333333;
+    color: white;
+}
+#services .card{
+    background-color: transparent;
+    text-align: center;
+}
+#services .card:hover{
+    background-color: white;
+    color: black;
+    
+}
+#services .card > i{
+    padding: 5px;
+    font-size: 2rem;
+}
+#services .main-content{
+    text-align: center;
+}
+
+#services p{
+    color: #aea8a8;
 }
